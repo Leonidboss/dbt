@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from raw.jaffle_shop.customers
+    from `data-build-tool-332020.dbt_edu.jaffle_shop_customers`
 
 ),
 
@@ -17,7 +17,7 @@ orders as (
         order_date,
         status
 
-    from raw.jaffle_shop.orders
+    from `data-build-tool-332020.dbt_edu.jaffle_shop_orders`
 
 ),
 
